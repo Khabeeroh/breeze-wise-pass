@@ -9,8 +9,9 @@
     background: linear-gradient(skyblue 20%, white);
     /* background-image: linear-gradient(red 20%, blue); */
     margin: 20px auto !important;
+    padding: 20px !important;
     width: 100%;
-    height: 100vh !important;
+    height: auto !important;
     align-items: center;
     justify-content: center;
 }
@@ -81,13 +82,23 @@ hr{
     margin-left: 13% !important;
 }
 @media screen and (max-width: 768px) {
+    .card{
+        width: 100% !important;
+        height: auto !important;
+    }
+    .row{
+        position: relative !important;
+        top: 100%;
+        bottom: 100%;
+    }
    .col-right{
     position: absolute !important;
     top: 0% !important;
    } 
    .col-left{
-    position: absolute!important;
-   top: 105% !important;
+    margin-top: 80% !important;
+    position: absolute !important;
+    top: 100% !important; 
    }
   .author .img{
     padding-top: 30px !important;
