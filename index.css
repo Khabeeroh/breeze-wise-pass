@@ -108,3 +108,10 @@ hr{
     padding-top: 30px !important;
   }
 }
+@media screen and (max-width:360px) and (min-width:100px) {
+    .col-left{
+        position: relative !important;
+        top: 0% !important; 
+        margin-top: 100rem !important;
+    }
+}
