@@ -75,13 +75,17 @@ hr{
 .col-right .card-text{
     text-align: center !important;
     width: 70% !important;
-   margin: 10px 0 250px 50px !important;
+   margin: 10px 0 280px 50px !important;
 }
 .col-right hr{
     width: 80% !important;
     margin-left: 13% !important;
 }
 @media screen and (max-width: 768px) {
+    .container{
+        width: 100% !important;
+
+    }
     .card{
         width: 100% !important;
         height: auto !important;
@@ -96,7 +100,7 @@ hr{
     top: 0% !important;
    } 
    .col-left{
-    margin-top: 100% !important;
+    margin-top: 110% !important;
     position: absolute !important;
     top: 100% !important; 
    }
